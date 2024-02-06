@@ -1,0 +1,1689 @@
+/**
+ * Theme Name:        My theme
+ * Description:       Custom theme description...
+ * Version:           1.0.0
+ * Author:           Nasrin
+ 
+ */
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#wp_menu li a{
+    color: black !important;
+}
+.navsec1 li{
+    padding: 2% !important;
+
+}
+.site-logo img {
+    width:90px !important;
+    height: 30px !important;
+    max-width: 100%;
+    height: auto;
+}
+/* submenu */
+/* Initially hide sub-menus */
+.sub-menu {
+    display: none;
+}
+
+/* Style for sub-menu items */
+.sub-menu li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Style for links */
+.sub-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style for dropdown effect */
+.show-sub-menu {
+    display: block !important;
+}
+
+
+ /* Style for portfolio item title */
+.portfolio-title {
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for portfolio item content */
+.portfolio-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.portfolio-content img {
+    width: 50%; /* Make sure images don't exceed their container width */
+    height: 500px !important;    /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Add some spacing between images */
+    border: 2px solid #ddd; /* Add a border around the images */
+    border-radius: 5px; /* Add a border-radius for rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+/*-------------------------------------------------------------------------------------*/
+.cart-count {
+    /* vertical-align: super !important;
+    
+    font-size: smaller !important; */
+    /* Add more styles as needed */
+    color: white !important;
+    font-size: xx-small !important;
+    background-color: red !important;
+    padding: 3% !important;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+    border-radius: 5px !important;
+    font-weight: 100 !important;
+}
+
+
+/* style for section banner */
+.content{
+    margin-top:5% ;
+}
+.banner{
+    display: flex;
+    flex-direction:row;
+}
+.banner-btn{
+    border-radius: 50px !important;
+    background-color: rgba(119, 187, 236, 0.311) !important;
+    color:rgb(58, 155, 216) !important;
+    border: none !important;
+    /* font-family: Poppins; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 16px !important; /* 133.333% */
+    letter-spacing: 0.2px !important;
+    display: flex;
+    padding: 5px 10px !important;
+    justify-content: center;
+    align-items: center;
+    width:150px !important;
+    gap: 10px;
+}
+.bannerhead{
+    /* font-family: Poppins; */
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 72px; /* 128.571% */
+letter-spacing: 0.2px;
+}
+.bannersecdiv{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    width: 90%;
+    /* padding-left: 10%; */
+}
+.bannerimg{
+    padding: 5%;
+    width: 100%;
+    height: 474px;
+    border-radius: 5px !important;
+    flex-shrink: 0;
+}
+.bannershadow{
+    margin-left: 7%;
+    width: 100%;
+    height: 490px;
+    flex-shrink: 0;
+    border: 2px solid rgb(183, 228, 244);
+    box-shadow: 0px 5px 40px 0px hsla(218, 18%, 9%, 0.05);
+
+
+box-shadow: 0px 5px 40px 0px hsla(218, 18%, 9%, 0.05);
+
+
+}
+.bannersearch{
+    display: flex;
+
+}
+.searchsecbanner{
+    border-radius: 0% !important;
+    background: hsla(196, 88%, 49%, 1) !important;
+
+}
+.bannerpara{
+    display: flex;
+    padding-top: 3%;
+    color: hsla(240, 1%, 40%, 1);
+/* font-family: Poppins; */
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.30000001192092896px;
+text-align: left;
+
+}
+/*-----------end of banner section------------------------------------------------------ */
+
+/*-------- section logo client section----------------------------------------------------------- */
+.clientsection{
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.clientsech6{
+    padding-top: 3% !important;
+}
+
+.clientsech6{
+   
+/* font-family: Poppins; */
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+color: hsla(196, 88%, 49%, 1) !important;
+
+
+}
+.clientimg{
+    width: 100% !important;
+    height: 70px !important;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+/*----------end section----------------------------------------------*/
+
+
+/*------------product section-------------------------------------------------------------------*/
+.browsetable{
+    border-radius: 20px !important;
+}
+.browsetable {
+    border-radius: 15px;
+    overflow: hidden; /* Hide overflow content for perfect rounded corners */
+}
+
+/*  */
+
+.theadbrowse th {
+    /* background-color: #343a40; */
+    color: white;
+}
+
+.fa {
+    margin-right: 5px; /* Add some spacing between icon and text */
+}
+.theadbrowse{
+    background: hsla(196, 88%, 49%, 1);
+    color: white;
+}
+/* .table-bordered{
+    border-radius: 20px !important;
+} */
+
+.subscribe{
+    border-radius: 15px !important;  
+    background-color:hsla(196, 85%, 95%, 1);
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    
+}
+.subscribe h6{
+    margin-top: 10%;
+}
+.subscribe-btn{
+    
+    border-radius: 5px !important;
+    background-color: rgba(119, 187, 236, 0.311) !important;
+    color:rgb(58, 155, 216) !important;
+    border: none !important;
+    /* font-family: Poppins; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 16px !important; /* 133.333% */
+    letter-spacing: 0.2px !important;
+    display: flex;
+    padding: 20px 30px !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:278px !important;
+    gap: 10px;
+    height: 62px;
+    margin-left: -3%;
+    margin-bottom: 5%;
+}
+.email-input-group {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center vertically */
+    justify-content: center !important;
+    border-radius: 5px !important;
+    width: 278px !important;
+    background-color: white;
+    height: 62px;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.email-input-group input {
+    border: none;
+    /* width: 400px ; */
+}
+
+.email-input-group .fa {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d; /* Adjust the color as needed */
+}
+
+.fa-envelope {
+    color: gray;
+    background-color: white;
+    border-radius: 5px !important;
+    padding-top: 0%;
+    padding-left: 5%;
+}
+
+.email-input {
+    padding-left: 30px; /* Adjust the padding to make space for the icon */
+}
+
+
+.pol{
+    margin-top: 5%;
+    border-radius: 15px !important; 
+    border:1px solid #dddfe0; 
+    
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.circle-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.percentage-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    background: transparent;
+}
+.polimg{
+    margin-top: 5%;
+    width: 144px;
+    height: 98px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.pol h3{
+    
+font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+color: hsla(196, 88%, 49%, 1);
+
+
+}
+.pol h5{
+    
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+
+
+
+}
+
+.pol small{
+    
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+margin-bottom: 15px;
+
+}
+.square {
+    margin-top: 10%;
+    height: auto; /* Adjust this to fit the content properly */
+    border-radius: 10px;
+    background: hsla(45, 94%, 57%, 0.12);
+}
+
+.sqrimg {
+    padding: 0;
+    margin: 0;
+    margin-left: -13px !important;
+    display: flex;
+    max-height: 100%; /* Adjust this to fit the content properly */
+    border-radius: 10px !important;
+    width: 337px;
+    overflow: hidden;
+}
+
+.square p{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: hsla(240, 22%, 25%, 1);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+
+
+}
+
+.square a span{
+margin-top: 20px;
+color: hsla(240, 22%, 25%, 1);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.30000001192092896px;
+text-align: center !important;
+display: flex;
+justify-content: center;
+
+
+}
+
+/*-----------style for new products----------------------------------*/
+.products{
+    margin-top: 3%;
+}
+.head {
+    position: relative;
+}
+.heading{
+font-family: Poppins;
+font-size: 26px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+}
+
+.custom-line {
+    position: absolute;
+    width: 100px;
+    top: 30px; /* Adjust this value based on your design */
+    left: 0;
+    border: 2px solid hsla(196, 88%, 49%, 1);; /* Specify the border color */
+    transform: rotate(-0deg); /* Specify the angle of rotation */
+}
+.productimg{
+    border-radius: 5px !important;
+    width:100%;
+    height: auto;
+    box-shadow: 1px 4px 44px 0px hsla(0, 0%, 0%, 0.03);
+
+
+}
+.phead{
+ 
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+/* letter-spacing: 0.30000001192092896px; */
+text-align: left;
+
+}
+.spanp{
+    color: hsla(0, 0%, 73%, 1) !important;
+   
+    font-family: Poppins !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+    /* letter-spacing: 0.30000001192092896px; */
+    text-align: left;
+
+
+}
+.price-btn{
+    margin-top:5px !important;
+    /* border-radius: 50px !important; */
+    background-color: rgba(119, 187, 236, 0.311) !important;
+    color:rgb(58, 155, 216) !important;
+    border: none !important;
+    /* font-family: Poppins; */
+   
+    font-weight: 400 !important;
+    line-height: 16px !important; /* 133.333% */
+    letter-spacing: 0.2px !important;
+    display: flex;
+    padding: 5px 10px !important;
+    justify-content: center;
+    align-items: center;
+    width:42px !important;
+    font-family: Poppins;
+    font-size: 10px !important;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    /* width: 77px; */
+    height: 30px !important;
+    gap: 10px;
+}
+
+/*--------------------*---------------------*/
+.prsmallsec{
+    padding-top: 2%;
+    background: rgb(214, 241, 250);
+    border-radius: 5px !important;
+
+}
+.figmaimg{
+    width: 14px;
+    height: 22px;
+    box-shadow: 0px 7.4476094245910645px 9.930148124694824px 0px hsla(240, 17%, 24%, 0.08);
+    box-shadow: 0px 4.965074062347412px 4.965074062347412px 0px hsla(240, 17%, 24%, 0.08);
+
+
+}
+.prsmallsec p{
+  
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+
+
+}
+.prsmallsec a{
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+    color: hsla(196, 88%, 49%, 1);
+
+
+
+
+}
+/*-----------------products part 2--------------------*/
+.links ul{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+
+}
+.links ul li{
+    padding-left: 2%;
+    padding-right: 2%;
+    position: relative;
+    
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    position: relative;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    transition: border-bottom-color 0.3s ease;
+
+}
+
+.links ul li:hover {
+     /* Set the increased height of the underline on hover */
+    border-bottom: 2px solid hsla(196, 88%, 49%, 1);
+}
+
+/*-------------------------end of product section-------------------------*/
+
+
+
+/*----------------last section---------------------------------------------------------------------*/
+.lastsection{
+    width: 100% !important;
+    margin-top: 5%;
+    background-color:rgb(209, 234, 244);
+    height: 400px;
+    
+}
+.lastsection .row ,.col-lg-6{
+    padding: 0 !important;
+}
+.lastseccontent{
+    /* display:block;
+    flex-direction: column; */
+}
+.lastsechead{
+    /* display: flex; */
+    color: hsla(196, 88%, 49%, 1);
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+.lastseccontent{
+    display: flex;
+    flex-direction: column;
+    padding: 20% 0% 0% 20%;
+    /* padding-top: 10%; */
+    width: 90%;
+}
+.lastseccontent p{
+    color: hsla(240, 22%, 25%, 1);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+
+}
+.lastsecbtn{
+    padding-left:20%;
+
+}
+.btncontact{
+ background-color: hsla(196, 88%, 49%, 1) !important;
+ border-color: hsla(196, 88%, 49%, 1) !important;
+ 
+
+}
+.btnseemore{
+    color: hsla(240, 8%, 48%, 1) !important;
+    background: rgba(113, 113, 132, 0.027) !important;
+    border-color: rgba(113, 113, 132, 0) !important;
+
+}
+.btnseemore:hover{
+    color: rgb(255, 255, 255) !important;
+    background: rgb(113, 113, 132) !important;
+    border-color: rgb(113, 113, 132) !important;
+
+}
+.lastsecimg{
+    width: 100%;
+    height: 433px;
+
+    
+
+}
+/* style for footer */
+.fa-instagram{
+     color: rgb(207, 47, 156);
+    
+}
+.fa-linkedin-in,.fa-facebook{
+    color: darkblue;
+}
+.fa-globe{
+    color: red;
+}
+
+/*  */
+/* Default styles for all screens */
+
+/* Tablet-sized screens */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Styles for tablets */
+    .clientimg {
+        flex-direction: row !important; /* Stack columns for smaller screens */
+        align-items: center !important; /* Center align content */
+    }
+
+    .clientimg li {
+        margin-right: 0 !important; /* Remove margin for smaller screens */
+        margin-bottom: 10px !important; /* Add spacing between client images in a column */
+    }
+    .bannertext{
+        width:35% !important;
+    }
+    .bannerimage{
+        width:65% !important;
+
+    }
+    .bannerhead {
+        /* font-family: Poppins; */
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0.2px;
+    }
+    .bannerpara{
+        display: flex;
+        padding-top: 3%;
+        color: hsla(240, 1%, 40%, 1);
+        /* font-family: Poppins; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.30000001192092896px;
+        text-align: left;
+    }
+    .clientimg{
+
+    }
+    .email-input-group {
+        width:90% !important;
+    }
+    .subscribe-btn{
+        width:90%!important;
+    }
+    .polimg {
+        justify-content: center !important ;
+        align-items: center !important;
+    }
+    .sqrimg {
+        padding: 0;
+        margin: 0;
+        margin-left: -13px !important;
+        display: flex;
+        max-height: 100%;
+        border-radius: 10px !important;
+        width: 104%;
+        overflow: hidden;
+    }
+    .price-btn {
+        padding: 5px !important;
+        margin-bottom: 10px !important;
+  
+    }
+    .phead,.spanp {
+        font-family: Poppins;
+        font-size: 11px !important;
+        font-weight: 600;
+        line-height: 12px;
+        /* letter-spacing: 0.30000001192092896px; */
+        text-align: left;
+    }
+    .col-lg-6{
+        position: relative;
+        width: 50% !important;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+    /* shop page */
+    ul.products.columns-3 li.product a img {
+        width: 240px !important;
+        height: auto !important;
+    }
+    /* Adjust the width of the product container to fit two products in one row */
+    .products.columns-3 li.product {
+        width: 48% !important; /* You can adjust this value based on your layout and spacing preferences */
+        float: left !important;
+        margin: 1% !important; /* You can adjust this value to add some margin between the products */
+    }
+
+    /* Clear the float to ensure proper alignment */
+    .products.columns-3:after {
+        content: "" !important;
+        display: table !important;
+        clear: both !important;
+    }
+
+    
+    
+}
+
+
+  
+  
+  /* Phone-sized screens */
+  @media only screen and (max-width: 768px) {
+    /* Styles for phones */
+    .footer-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 3% !important;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .footer-icons i{
+        padding: 2% !important;
+    }
+    .footer-text a{
+        text-align: center !important;
+    }
+    .clientimage{
+        height: 400px !important;
+    }
+    .clientimg {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .clientimg li {
+        margin-right: 0 !important; /* Remove margin for smaller screens */
+        margin-bottom: 10px !important; /* Add spacing between client images in a column */
+    }
+    .bannertext{
+        width:48% !important;
+    }
+    .bannerimage{
+        width:52% !important;
+
+    }
+    .bannerhead {
+        /* font-family: Poppins; */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.2px;
+    }
+    .bannerpara{
+        display: flex;
+        padding-top: 3%;
+        color: hsla(240, 1%, 40%, 1);
+        /* font-family: Poppins; */
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0.30000001192092896px;
+        text-align: left;
+    }
+    .bannershadow {
+        margin-left: 7%;
+        width: 100%;
+        height: 290px;
+        flex-shrink: 0;
+        border: 2px solid rgb(183, 228, 244);
+        box-shadow: 0px 5px 40px 0px hsla(218, 18%, 9%, 0.05);
+        box-shadow: 0px 5px 40px 0px hsla(218, 18%, 9%, 0.05);
+    }
+    .bannerimg {
+        padding: 5%;
+        width: 100%;
+        height: 290px;
+        border-radius: 5px !important;
+        flex-shrink: 0;
+    }
+    .banner-btn {
+        border-radius: 50px !important;
+        background-color: rgba(119, 187, 236, 0.311) !important;
+        color: rgb(58, 155, 216) !important;
+        border: none !important;
+        /* font-family: Poppins; */
+        font-size: 10px !important;
+        font-style: normal;
+        font-weight: 400 !important;
+        line-height: 10px !important;
+        letter-spacing: 0.2px !important;
+        display: flex;
+        padding: 5px 10px !important;
+        justify-content: center;
+        align-items: center;
+        width: 139px !important;
+        gap: 10px;
+    }
+    .clientimg{
+
+    }
+    .email-input-group {
+        width:90% !important;
+    }
+    .subscribe-btn{
+        width:90%!important;
+    }
+    .polimg {
+        justify-content: center !important ;
+        align-items: center !important;
+    }
+    .sqrimg {
+        padding: 0;
+        margin: 0;
+        margin-left: -13px !important;
+        display: flex;
+        max-height: 100%;
+        border-radius: 10px !important;
+        width: 104%;
+        overflow: hidden;
+    }
+    .price-btn {
+        padding: 5px !important;
+        margin-bottom: 10px !important;
+  
+    }
+    .phead,.spanp {
+        font-family: Poppins;
+        font-size: 11px !important;
+        font-weight: 600;
+        line-height: 12px;
+        /* letter-spacing: 0.30000001192092896px; */
+        text-align: left;
+    }
+    .col-lg-6{
+        position: relative;
+        width: 50% !important;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .lastseccontent p {
+        color: hsla(240, 22%, 25%, 1);
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.30000001192092896px;
+        text-align: left;
+    }
+    .lastsechead {
+        /* display: flex; */
+        color: hsla(196, 88%, 49%, 1);
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.20000000298023224px;
+        text-align: left;
+    }
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid transparent;
+        padding: 0.375rem 0.75rem;
+        margin-bottom: 10px !important;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .prsmallsec p,.prsmallsec a { 
+        font-size: 12px;
+    }
+    .links ul li {
+        padding-left: 2%;
+        padding-right: 2%;
+        position: relative;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        position: relative;
+        letter-spacing: 0.10000000149011612px;
+        text-align: left;
+        transition: border-bottom-color 0.3s ease;
+    }
+
+    /* product page */
+    .woocommerce-product-gallery__image, .entry-summary{
+        width: 100% !important;
+        float: left;
+        padding: 2%;
+        text-align: center;
+    }
+    .products ul{
+        margin-top: 3%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    /* shop page */
+    .products {
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    ul.products.columns-3 li.product a img{
+        width: auto !important;
+        height: auto !important ;
+    }
+    ul.products.columns-3 li.product {
+        position: relative;
+        width: 100% !important;
+        text-align: center !important;
+    }
+    ul.products.columns-3 li.product a.button {
+        position: absolute;
+        bottom: 0;
+        left: 76px !important;
+    }
+    .tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt:before {
+        position: absolute !important;
+        top: 31% !important;
+        left: 869% !important;
+        margin-right: 0 !important;
+    }
+    .add_to_cart_button {
+        color: white !important;
+        background-color: #51caf3 !important;
+        width: 220px !important;
+        padding: 1% !important;
+        height: 30px !important;
+    }
+    .woocommerce-result-count,.woocommerce-ordering,.woocommerce-breadcrumb,.woocommerce-breadcrumb a {
+       
+        margin-left: 2%;
+    }
+}
+  
+
+
+
+/* ---------woocommerce dashboard-------------------------------------------------------------------------------- */
+.dashboard-row{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.dashboard-icon{
+    color: #0FAFE9 !important;
+}
+.dashboard-col{
+    width: 260px;
+    height: 201px;
+    background-color: hsla(196, 85%, 95%, 1);
+    border-radius: 5px;
+    margin-right: 5%;
+}
+.dashboard-col i{
+ font-size:76px;
+ margin-top: 20%;
+
+}
+.dashboard-paralinks{
+    color: black !important;
+}
+/* Custom styles for WooCommerce My Account navigation */
+.woocommerce-MyAccount-navigation ul {
+    display: table;
+    float: left;
+    padding: 0 !important;
+    
+    margin-top: 20px; /* Adjust the margin as needed */
+
+    /* Optional: Add a border to the table */
+    border-collapse: collapse;
+    border-radius: 5px !important;
+}
+.woocommerce-MyAccount-navigation ul{
+    
+    border-collapse: collapse;
+    padding-right: 50px !important;
+    border-radius: 5px !important;
+}
+
+.woocommerce-MyAccount-navigation li {
+    border-radius: 10px !important;
+    display: table-row;
+    /* width: 300px !important; */
+    margin: 0;
+}
+
+.woocommerce-MyAccount-navigation a {
+    display: table-cell;
+    width: 300px !important;
+    padding: 10px;
+    text-align: left !important;
+    color: black !important;
+    text-decoration: none !important;
+    border: 1px solid #ddd; /* Optional: Add a border to each cell */
+}
+.woocommerce-MyAccount-navigation-link{
+    width: 300px !important;
+
+} 
+.woocommerce-MyAccount-navigation-link--customer-logout a{
+    color: red !important;
+}
+
+/* Hover effect */
+.woocommerce-MyAccount-navigation a:hover {
+    background-color:  hsla(196, 85%, 95%, 1);
+    color:  #0FAFE9 ; /* Change the background color on hover */
+}
+.woocommerce-MyAccount-navigation a:active {
+    background-color: hsla(196, 85%, 95%, 1); /* Change the background color on hover */
+}
+ .is-active{
+    background-color:  hsla(196, 85%, 95%, 1) !important;
+    
+
+ }
+ .is-active a{
+    color:  #0FAFE9 !important;
+
+ }
+ .woocommerce-MyAccount-navigation-link--0{
+    color: white !important;
+    background-color: #0FAFE9;
+
+ }
+ .woocommerce-MyAccount-navigation-link--0 a{
+    color: white !important;
+    text-align: center !important;
+    /* border-radius: 5px; */
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ /*--------------Account details------------------------------------------------------------*/
+ .btn-account-details{
+    background-color: #0FAFE9 !important;
+    border-color: #0FAFE9 !important;
+ }
+
+
+ /*------------------------Shop page side bar----------------------------------------------------------------------- */
+ /* Add your custom styles for the WooCommerce sidebar */
+.widget {
+    margin-bottom: 20px;
+}
+
+.widget-title {
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+
+
+
+/*-------------woocommerce product category page------------------------------------------------------------------------------ */
+.woocommerce-breadcrumb{
+    /* margin-left: 5.5%!important; */
+    margin-top: 2% !important;
+}
+
+.woocommerce-notices-wrapper{
+    width:100px !important;
+}
+
+.woocommerce-result-count{
+    font-style: italic !important;
+    padding-top: 1% !important;
+
+}
+
+.orderby{
+    padding: 1% !important;
+    background-color: #0FAFE9 !important;
+    color: white;
+    border: 1px solid #0FAFE9;
+    
+}
+.orderby option{
+    padding: 5% 10% 5% 10% !important;
+    background-color: #fff !important;
+    color: black;
+    border: 1px solid #0FAFE9;
+    
+}
+
+.columns-3{
+    padding-top: 5% !important;
+}
+.qty{
+    margin-top: 2px !important;
+} 
+
+.wc-block-cart-item__remove-link{
+    color: red !important;
+}
+
+.wc-block-components-totals-coupon-link{
+    background-color: #0FAFE9 !important;
+    color: white !important;
+    border: 1px solid white ;
+    padding: 3% !important;
+}
+
+.wc-block-cart__submit-button{
+    background-color: #0FAFE9 !important;
+    color: white !important;
+    border: 1px solid white ;
+    padding: 3% !important;
+} 
+.wc-block-components-checkout-place-order-button{
+    background-color: #0FAFE9 !important;
+    color:white !important;
+    border-color:#0FAFE9 ;
+}
+
+.wpc-checkbox-item label a{
+    color: black !important;
+}
+.wpc-filter-header{
+    background-color: #90c2d3;
+}
+.wpc-filter-title{
+    color: white !important;
+    background-color: #72cfed !important;
+}
+.btn-acnt{
+    background-color: #0FAFE9 !important;
+    color: white;
+    border-color: #0FAFE9 !important;
+}
+
+
+
+/* checkout page */
+/* Style for billing company field */
+#billing_company_field ,#billing_country,#shipping_company_field ,#shipping_country {
+    display: block;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+#billing_company_field label ,,#billing_country label,#shipping_company_field label ,,#shipping_country label {
+    display: block;
+    margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+#billing_company_field .woocommerce-input-wrapper ,#billing_country .woocommerce-input-wrapper {
+    width: 100%;
+}
+#shipping_company_field .woocommerce-input-wrapper ,#shipping_country .woocommerce-input-wrapper {
+    width: 100%;
+}
+#billing_company_field input[type="text"] ,#shipping_company_field input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px; /* Adjust the padding as needed */
+    border: 1px solid #ccc; /* Adjust the border as needed */
+
+}
+
+#billing_company_field .optional,#shipping_company_field .optional  {
+    font-style: italic;
+    color: #777; /* Adjust the color as needed */
+}
+/* Override default WooCommerce styles for billing fields */
+.woocommerce-billing-fields__field-wrapper p.form-row ,.woocommerce-shipping-fields__field-wrapper p.form-row {
+    margin-bottom: 20px;
+}
+
+/* Set label style */
+.woocommerce-billing-fields__field-wrapper label ,.woocommerce-shipping-fields__field-wrapper label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Set input style */
+.woocommerce-billing-fields__field-wrapper input,
+.woocommerce-billing-fields__field-wrapper select,
+.woocommerce-shipping-fields__field-wrapper input,
+.woocommerce-shipping-fields__field-wrapper select {
+    width: 100%  !important;
+    padding: 10px;
+    /* padding-right: 335px; */
+    /* border-color: black ; */
+    box-sizing: border-box;
+}
+#billing_address_1,#billing_address_2,#billing_city,#billing_postcode,#billing_phone{
+    padding-right: 335px;
+    border: 1px solid #ccc; /* Add border as needed */
+
+}
+#shipping_address_1,#shipping_address_2,#shipping_city,#shipping_postcode,#shipping_phone{
+    padding-right: 335px;
+    border: 1px solid #ccc; /* Add border as needed */
+
+}
+#select2-billing_country-container,#select2-shipping_state-container,#select2-shipping_country-container{
+    padding-right: 437px;
+    /* padding: 10px; */
+    border: 1px solid #ccc; /* Add border as needed */
+
+}
+
+#billing_first_name,#billing_last_name{
+    border: 1px solid #ccc; /* Add border as needed */
+
+}
+#shipping_first_name,#shipping_last_name{
+    border: 1px solid #ccc; /* Add border as needed */
+
+}
+#select2-billing_state-container{
+    padding-right: 437px;
+    border: 1px solid #ccc; /* Add border as needed */
+
+}
+/* Add some spacing between fields for better readability */
+.woocommerce-billing-fields__field-wrapper .form-row {
+    margin-bottom: 15px;
+}
+.woocommerce-billing-fields h3, #ship-to-different-address{
+    padding: 5%;
+}
+.woocommerce-billing-fields,.woocommerce-shipping-fields{
+    padding: 3%;
+}
+
+.customer_details,.woocommerce-billing-fields {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust the shadow color and size as needed */
+}
+
+
+
+.woocommerce-input-wrapper #billing_country_field select {
+    width: 70% !important;
+    box-sizing: border-box; /* Include padding and border in the width */
+    display: inline-block; /* Make the label and select appear on the same line */
+}
+#billing_country{
+    width:30% !important;
+
+}
+#billing_email_field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#billing_email_field label {
+    margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+#billing_email_field .woocommerce-input-wrapper {
+    width: 100%; /* Set the input width to 100% */
+}
+
+#billing_email {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px; /* Adjust padding as needed */
+    margin-top: 5px; /* Adjust margin-top as needed */
+    border: 1px solid #ccc; /* Add border as needed */
+    
+}
+#billing_city_field label {
+    margin-right: 0;  /* Remove bottom margin of the label */
+}
+
+#billing_city_field .woocommerce-input-wrapper {
+    margin-right: 0;  /* Remove top margin of the input wrapper */
+}
+#billing_address_2_field{
+    margin-right: 0;
+}
+
+/* shipping */
+/* Add some spacing between fields for better readability */
+.woocommerce-shipping-fields__field-wrapper .form-row {
+    margin-bottom: 15px;
+}
+.woocommerce-shipping-fields h3, #ship-to-different-address{
+    padding: 5%;
+}
+.woocommerce-billing-fields,.woocommerce-shipping-fields{
+    padding: 3%;
+}
+
+.customer_details,.woocommerce-shipping-fields {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust the shadow color and size as needed */
+}
+
+
+
+.woocommerce-input-wrapper #shipping_country_field select {
+    width: 70% !important;
+    box-sizing: border-box; /* Include padding and border in the width */
+    display: inline-block; /* Make the label and select appear on the same line */
+}
+#shipping_country{
+    width:30% !important;
+
+}
+#shipping_email_field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#shipping_email_field label {
+    margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+#shipping_email_field .woocommerce-input-wrapper {
+    width: 100%; /* Set the input width to 100% */
+}
+
+#shipping_email {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px; /* Adjust padding as needed */
+    margin-top: 5px; /* Adjust margin-top as needed */
+    border: 1px solid #ccc; /* Add border as needed */
+    
+}
+#shipping_city_field label {
+    margin-right: 0;  /* Remove bottom margin of the label */
+}
+
+#shipping_city_field .woocommerce-input-wrapper {
+    margin-right: 0;  /* Remove top margin of the input wrapper */
+}
+#shipping_address_2_field{
+    margin-right: 0;
+    border: 1px solid #ccc;
+}
+#order_comments_field {
+    display: flex;
+    flex-direction: column;
+     /* Add border as needed */
+
+}
+
+#order_comments_field label {
+    order: -1; /* Move the label to the top */
+    margin-bottom: 5px; /* Optional spacing between label and textarea */
+}
+#order_comments_field{
+    padding: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 3%;
+}
+#order_review_heading{
+    margin-top: 2%;
+}
+
+/* .products{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+} */
+/* Display 3 products in one row */
+/* Style for product loop */
+ul.products.columns-3 li.product {
+    width: calc(30% - 20px); /* Adjust width to fit 3 products in a row with spacing */
+    display: inline-block;
+    margin-right: 35px; /* Adjust spacing between products */
+    margin-bottom: 30px; /* Adjust spacing between rows */
+}
+
+/* Clear the last product in each row to prevent margin-right */
+ul.products.columns-3 li.product:nth-child(3n) {
+    margin-right: 0;
+}
+
+/* Style for pagination */
+nav.woocommerce-pagination {
+    margin-top: 20px; /* Adjust spacing between products and pagination */
+}
+
+ul.page-numbers {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.page-numbers li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between page numbers */
+}
+
+/* Style for current page */
+ul.page-numbers li.current {
+    font-weight: bold;
+    color: #333; /* Adjust color for the current page */
+}
+
+/* Style for next page link */
+ul.page-numbers li.next a {
+    font-weight: bold;
+    color: #333; /* Adjust color for the next page link */
+}
+.attachment-woocommerce_thumbnail .size-woocommerce_thumbnail{
+    width:100px !important;
+}
+
+ul.products.columns-3 li.product a img{
+    width: 200px ;
+    height: 150px ;
+}
+.woocommerce-loop-product__title{
+    font-size: 24px !important;
+    color: black;
+}
+.woocommerce-Price-amount .amount bdi{
+    font-size: 16px !important;
+    color: black !important;
+}
+#text{
+    font-size: 16px !important;
+    color: black !important;
+}
+.add_to_cart_button,.single_add_to_cart_button{
+    color: white !important;
+    background-color: #51caf3 !important;
+    width: 150px ;
+    padding: 2%;
+    height: 30px !important;
+}
+/* Move Add to Cart button below price */
+ul.products.columns-3 li.product {
+    position: relative;
+}
+
+ul.products.columns-3 li.product .price {
+    margin-bottom: 10px; /* Adjust the spacing between price and Add to Cart button */
+}
+
+ul.products.columns-3 li.product a.button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt:before {
+    position: absolute !important;
+    top: 31% !important;
+    left: 965% ;
+    margin-right: 0 !important;
+}
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart-plus.no-txt:before, .tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt:before {
+    margin-top: -10px;
+    margin-left: -10px;
+    overflow: hidden;
+}
+
+
+/* woocommerce product page */
+.products ul{
+    margin-top: 3%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.attachment-woocommerce_thumbnail ,.size-woocommerce_thumbnail{
+    margin-right: 10px !important;
+}
+
+
+
+/* Style for tabs container */
+.woocommerce-tabs {
+    margin-top: 20px; /* Adjust as needed */
+    background-color: #f9f9f9;
+    margin-left: 0;
+    /* padding: 3%; */
+}
+.woocommerce-Tabs-panel{
+    padding: 3%;
+}
+
+
+/* Style for individual tabs */
+.woocommerce-tabs ul.tabs li {
+    /* background-color: #98d1e66b; */
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: inline-block;
+    color: black;
+    /* margin-right: 20px; Adjust as needed */
+}
+.woocommerce-tabs ul.tabs li a {
+    display: inline-block;
+    color: black;
+    
+}
+
+/* Style for the active tab */
+.woocommerce-tabs ul.tabs li.active {
+    background-color: #f9f9f9;
+    border: 2px solid #98d1e66b;
+    border-bottom:2px solid #f9f9f9 ;
+
+    font-weight: bold; /* Make the active tab bold, adjust as needed */
+}
+
+/* Style for tab content panels */
+.woocommerce-Tabs-panel {
+    margin-top: 20px; /* Adjust as needed */
+}
+
+/* Hide the "Cancel reply" link in the review form */
+#cancel-comment-reply-link {
+    display: none;
+}
+
+.tabs{
+    /* background-color: #98d1e66b; */
+
+
+}
+.qty{
+    width:100px !important;
+    text-align: center !important;
+    margin-bottom: 10px;
+}
+.woocommerce-product-gallery__image, .entry-summary{
+    width: 50%;
+    float: left;
+    padding: 2%;
+}
+.single_add_to_cart_button{
+    padding: 0%;
+    /* padding-top: 2%; */
+    padding-bottom: 2%;
+    border: 2px solid #ffffff;
+
+}
+/* order page */
+/* Apply a border to the table and set border-collapse for better styling */
+table {
+    border: 1px solid #ddd; /* Border color for the entire table */
+    border-collapse:separate;
+    width: 80%;
+}
+
+/* Style the header row (thead) with a different background color */
+thead {
+    background-color: #51caf34e;
+    /* Choose the color you prefer */
+}
+
+/* Style the table cells (td, th) with padding and border */
+td, th {
+    padding: 8px; /* Adjust the padding based on your preference */
+    text-align: left;
+}
+
+/* Optional: Add hover effect for better user experience */
+tr:hover {
+    background-color: #f5f5f5; /* Choose the hover color you prefer */
+}
+.woocommerce-MyAccount-content{
+    margin-bottom: 300px !important;
+}
+.view{
+    background-color: #51caf34e;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #1fb4e6;
+}
+
+
+/* address page */
+.woocommerce-Address-title{
+    color: gray !important;
+}
